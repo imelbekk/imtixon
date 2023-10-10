@@ -1,0 +1,218 @@
+footer {
+  padding: 0 146px 30px;
+  margin-top: 100px;
+}
+footer .footer_top {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_top .footer_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+footer .footer_top .footer_1 .logo_s {
+  display: flex;
+  gap: 24px;
+}
+footer .footer_top .footer_1 .apps {
+  display: flex;
+  gap: 16px;
+}
+footer .footer_top .footer_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .footer_top .footer_2 h6 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+footer .footer_top .footer_2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+footer .footer_top .footer_2 ul a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+footer .footer_top .footer_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+footer .footer_top .footer_3 h6 {
+  margin-bottom: 13px;
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 280px;
+}
+footer .footer_top .footer_3 input {
+  padding: 10px 15px;
+}
+footer .footer_top .footer_3 .btn button {
+  padding: 8px 15px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  background: #02897A;
+  border: none;
+}
+footer .footer_bottom h6 {
+  color: #FFF;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  footer {
+    padding: 0 70px 30px;
+    margin-top: 70px;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  footer {
+    padding: 0 30px 20px;
+  }
+  footer .footer_top {
+    margin-bottom: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .footer_top .footer_1 {
+    width: 30%;
+    gap: 15px;
+  }
+  footer .footer_top .footer_1 .logo_s {
+    gap: 20px;
+  }
+  footer .footer_top .footer_1 .apps {
+    gap: 13px;
+  }
+  footer .footer_top .footer_2 {
+    width: 30%;
+  }
+  footer .footer_top .footer_3 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .footer_top .footer_3 input {
+    width: 200px;
+    height: 50px;
+  }
+}
+@media (min-width: 447px) and (max-width: 769px) {
+  footer {
+    padding: 0 30px 20px;
+  }
+  footer .footer_top {
+    margin-bottom: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .footer_top .footer_1 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+  footer .footer_top .footer_1 .logo_s {
+    gap: 20px;
+  }
+  footer .footer_top .footer_1 .apps {
+    gap: 13px;
+  }
+  footer .footer_top .footer_2 {
+    width: 30%;
+  }
+  footer .footer_top .footer_2 h6 {
+    font-size: 16px;
+  }
+  footer .footer_top .footer_2 ul a {
+    font-size: 15px;
+  }
+  footer .footer_top .footer_3 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  footer .footer_top .footer_3 h6 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 447px) {
+  footer {
+    padding: 0 30px 20px;
+  }
+  footer .footer_top {
+    margin-bottom: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  footer .footer_top .footer_1 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+  footer .footer_top .footer_1 .logo_s {
+    gap: 20px;
+  }
+  footer .footer_top .footer_1 .apps {
+    gap: 13px;
+  }
+  footer .footer_top .footer_2 {
+    align-items: center;
+    width: 50%;
+    gap: 5px;
+  }
+  footer .footer_top .footer_2 h6 {
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .footer_top .footer_2 ul a {
+    font-size: 15px;
+    text-align: center;
+  }
+  footer .footer_top .footer_3 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  footer .footer_top .footer_3 h6 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

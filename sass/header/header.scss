@@ -1,0 +1,759 @@
+@import url(../footer/footer.css);
+@import url(../section/section.css);
+@import url(../main/main.css);
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../../Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../../Inter/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../Montserrat/Montserrat-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f2e35;
+}
+
+nav{
+    padding: 19px 146px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav_logo{
+        display:flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .nav-right{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            align-items: center;
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 16px;
+                font-family: "Poppins";                
+                font-weight: 400;
+                line-height: 28px;
+
+            }
+            .pricing{
+                font-weight: 600;
+            }
+        }
+        button{
+            padding: 10px 25px;
+            color: #fff;
+            font-size: 16px;
+            font-family: "Poppins";
+            font-weight: 600;
+            line-height: normal;
+            border-radius: 4px;
+        }
+        .btn_1{
+            background-color: #1f2e35;
+            border: 1px solid #BCD0E5;
+        }
+        .btn_2{
+            background-color: #02897a;
+            border: none;
+        }
+    }
+    span{
+        display: none;
+    }
+}
+
+.header_top{
+    padding: 50px 145px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    gap: 30px;
+    .header_top-h6{
+        font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: normal;
+        font-style: normal;
+        text-align: center;
+    }
+    .header_top-h5{
+        font-family: "Poppins";
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .header_top-p{
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .header_top-boxs{
+        display: flex;
+        gap: 50px;
+        .header_top-box{
+            width: 33%;
+            background-color: #fff;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            h6{
+                color: #22343D;
+                font-family: "Poppins";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                text-align: center;
+            }
+            .ht-box-p{
+                color: #22343D;
+                font-size: 16px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: center;
+            }
+            .ht-box{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                h5{
+                    color: #02897A;
+                    text-align: center;
+                    font-family: "Poppins";
+                    font-size: 76px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100px; 
+                    letter-spacing: 0.2px;
+                }
+                .ht-mbox{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    span{
+                        color: #02897A;
+                        font-family: "Inter";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px; 
+                        letter-spacing: 0.1px;
+                    }
+                    p{
+                        color: #AFAFAF;
+                        font-family: "Poppins";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px; 
+                        letter-spacing: 0.1px;
+                    }
+                }
+            }
+            .ht-box2{
+                display: flex;
+                flex-direction: column;
+                color: #22343D;
+                font-family: "Inter";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; 
+                letter-spacing: 0.2px;
+                gap: 16px;
+                text-align: center;
+            }
+            button{
+                display: inline-flex;
+                padding: 11px 19px 11px 18px;
+                justify-content: center;
+                align-items: center;
+                font-family: "Montserrat";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                color: #fff;
+                background-color: #02897A;
+                border: none;
+                border-radius: 8px;
+                margin-top: 38px;
+            }
+        }
+        .header_top-box2{
+            color: #fff;
+            padding: 30px 0;
+            width: 33%;
+            background-color: #02897A;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            h6{
+                color: #fff;
+                font-family: "Poppins";
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 40px;
+                text-align: center;
+            }
+            .ht-box-p{
+                color: #fff;
+                font-size: 16px;
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px;
+                text-align: center;
+            }
+            .ht-box{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                h5{
+                    text-align: center;
+                    font-family: "Poppins";
+                    font-size: 76px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100px; 
+                    letter-spacing: 0.2px;
+                }
+                .ht-mbox{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    span{
+                        font-family: "Inter";
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 30px; 
+                        letter-spacing: 0.1px;
+                    }
+                    p{
+                        font-family: "Poppins";
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 19px; 
+                        letter-spacing: 0.1px;
+                        color: #AFAFAF;
+                    }
+                }
+            }
+            .ht-box2{
+                display: flex;
+                flex-direction: column;
+                font-family: "Inter";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22px; 
+                letter-spacing: 0.2px;
+                gap: 16px;
+                text-align: center;
+            }
+            button{
+                display: inline-flex;
+                padding: 11px 19px 11px 18px;
+                justify-content: center;
+                align-items: center;
+                font-family: "Montserrat";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                color: #02897A;
+                background-color: #fff;
+                border: none;
+                border-radius: 8px;
+                margin-top: 38px;
+            }
+        }
+    }
+}
+
+@media (min-width:990px) and (max-width:1200px) {
+    nav{
+        padding: 15px 45px;
+        justify-content: space-between ;
+        .nav_logo{
+            gap: 15px;
+        }
+        .nav-right{
+            flex-direction: row-reverse;
+            align-items: center;
+            ul{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            span{
+                display: block;
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+    }
+    .header_top{
+        padding: 45px 50px;
+        gap: 26px;
+        .header_top-h6{
+            font-size: 22px;
+        }
+        .header_top-h5{
+            font-size: 36px;
+        }
+        .header_top-p{
+            font-size: 15px;
+        }
+        .header_top-boxs{
+            gap: 40px;
+            .header_top-box{
+                h6{
+                    font-size: 22px;
+                }
+                .ht-box-p{
+                    font-size: 14px;
+                }
+                .ht-box{
+                    gap: 9px;
+                    h5{
+                        font-size: 72px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 22px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 15px;
+                    gap: 12px;
+                }
+            }
+            .header_top-box2{
+                h6{
+                    font-size: 22px;
+                }
+                .ht-box-p{
+                    font-size: 14px;
+                }
+                .ht-box{
+                    gap: 9px;
+                    h5{
+                        font-size: 72px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 22px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 15px;
+                    gap: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:990px) {
+    nav{
+        padding: 15px 20px;
+        justify-content: space-between ;
+        .nav_logo{
+            gap: 13px;
+            .logo1{
+                width: 30px;
+            }
+            .logo2{
+                width: 100px;
+            }
+        }
+        .nav-right{
+            flex-direction: row-reverse;
+            align-items: center;
+            ul{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            span{
+                display: block;
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+    }
+    .header_top{
+        padding: 40px 15px;
+        gap: 20px;
+        .header_top-h6{
+            font-size: 20px;
+        }
+        .header_top-h5{
+            font-size: 32px;
+        }
+        .header_top-p{
+            font-size: 14px;
+        }
+        .header_top-boxs{
+            gap: 15px;
+            .header_top-box{
+                h6{
+                    font-size: 20px;
+                }
+                .ht-box-p{
+                    font-size: 13px;
+                }
+                .ht-box{
+                    gap: 7px;
+                    h5{
+                        font-size: 60px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 14px;
+                    gap: 10px;
+                }
+                button{
+                    padding: 10px 15px;
+                    font-size: 15px;
+                    margin-top: 25px;
+                }
+            }
+            .header_top-box2{
+                h6{
+                    font-size: 20px;
+                }
+                .ht-box-p{
+                    font-size: 13px;
+                }
+                .ht-box{
+                    gap: 7px;
+                    h5{
+                        font-size: 60px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 14px;
+                    gap: 10px;
+                }
+                button{
+                    padding: 10px 15px;
+                    font-size: 15px;
+                    margin-top: 25px;
+                }
+            }
+
+        }
+    }
+}
+
+@media (min-width:447px) and (max-width:769px) {
+    nav{
+        padding: 15px 30px;
+        justify-content: space-between ;
+        .nav_logo{
+            gap: 10px;
+            .logo1{
+                width: 25px;
+            }
+            .logo2{
+                width: 90px;
+            }
+        }
+        .nav-right{
+            flex-direction: row-reverse;
+            align-items: center;
+            ul{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            span{
+                display: block;
+                color: #fff;
+                font-size: 20px;
+            }
+        }
+    }
+    .header_top{
+        padding: 30px 50px;
+        gap: 16px;
+        .header_top-h6{
+            font-size: 22px;
+        }
+        .header_top-h5{
+            font-size: 33px;
+        }
+        .header_top-p{
+            font-size: 16px;
+        }
+        .header_top-boxs{
+            gap: 30px;
+            flex-direction: column;
+            align-items: center;
+            .header_top-box{
+                width: 80%;
+                align-items: center;
+                justify-content: center;
+                padding: 30px 10px;
+                h6{
+                    font-size: 30px;
+                }
+                .ht-box-p{
+                    font-size: 20px;
+                }
+                .ht-box{
+                    gap: 10px;
+                    h5{
+                        font-size: 65px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 20px;
+                    gap: 20px;
+                }
+                button{
+                    padding: 10px 30px;
+                    font-size: 20px;
+                    margin-top: 25px;
+                }
+            }
+            .header_top-box2{
+                width: 80%;
+                align-items: center;
+                justify-content: center;
+                padding: 30px 10px;
+                h6{
+                    font-size: 30px;
+                }
+                .ht-box-p{
+                    font-size: 20px;
+                }
+                .ht-box{
+                    gap: 10px;
+                    h5{
+                        font-size: 65px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 20px;
+                    gap: 20px;
+                }
+                button{
+                    padding: 10px 30px;
+                    font-size: 20px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:447px) {
+    nav{
+        padding: 17px 32px;
+        justify-content: space-between ;
+        .nav_logo{
+            gap: 8px;
+            .logo1{
+                width: 25px;
+            }
+            .logo2{
+                width: 90px;
+            }
+        }
+        .nav-right{
+            flex-direction: row-reverse;
+            align-items: center;
+            ul{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            span{
+                display: block;
+                color: #fff;
+                font-size: 20px;
+            }
+            img{
+                display: none;
+            }
+        }
+    }
+    .header_top{
+        padding: 50px 32px;
+        gap: 15px;
+        .header_top-h6{
+            font-size: 24px;
+        }
+        .header_top-h5{
+            font-size: 33px;
+        }
+        .header_top-p{
+            font-size: 16px;
+        }
+        .header_top-boxs{
+            gap: 32px;
+            flex-direction: column;
+            align-items: center;
+            .header_top-box{
+                width: 80%;
+                align-items: center;
+                justify-content: center;
+                padding: 30px 10px;
+                h6{
+                    font-size: 24px;
+                }
+                .ht-box-p{
+                    font-size: 16px;
+                }
+                .ht-box{
+                    gap: 10px;
+                    h5{
+                        font-size: 76px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 24px;
+                        }
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 16px;
+                    gap: 16px;
+                }
+                button{
+                    padding: 11px 18px;
+                    font-size: 18px;
+                    margin-top: 38px;
+                }
+            }
+            .header_top-box2{
+                width: 80%;
+                align-items: center;
+                justify-content: center;
+                padding: 30px 10px;
+                h6{
+                    font-size: 30px;
+                }
+                .ht-box-p{
+                    font-size: 20px;
+                }
+                .ht-box{
+                    gap: 10px;
+                    h5{
+                        font-size: 65px;
+                    }
+                    .ht-mbox{
+                        span{
+                            font-size: 25px;
+                        }
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .ht-box2{
+                    font-size: 20px;
+                    gap: 20px;
+                }
+                button{
+                    padding: 10px 30px;
+                    font-size: 20px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
